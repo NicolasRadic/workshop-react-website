@@ -9,6 +9,12 @@
     font-size: xx-large;
   }
 
+  input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+  }
+
   div {
     display: flex;
     flex-wrap: wrap;
