@@ -1,5 +1,5 @@
 {
-  "clothes": [
+  "product": [
     {
       "id": 1,
       "name": "Tomate",
@@ -16,10 +16,31 @@
     },
     {
       "id": 3,
-      "name": "poire",
+      "name": "Poire",
       "prix": 4,
       "description": "La poire est un fruit de forme oblongue ou arrondie. Sa peau est généralement jaune-verte, brune ou rouge. La chair de la poire est juteuse, translucide, un peu granuleuse parfois. La poire contient généralement quelques pépins dans son cœur.",
-      "image": "images/poir.png"
+      "image": "images/poire.png"
+    },
+    {
+      "id": 4,
+      "name": "Pêche",
+      "prix": 4,
+      "description": "Les pêches sont des fruits climactériques charnus, juteux et sucrés, avec une chair jaune, blanche, ou rouge (sanguine), une peau veloutée de couleur jaune ou orange plus ou moins lavée de rose-carmin à rose-saumon ou brune chez les sanguines, et un noyau dur, adhérent ou non.",
+      "image": "images/peche.png"
+    },
+    {
+      "id": 5,
+      "name": "Olive",
+      "prix": 4,
+      "description": "L'olive est le fruit de l'olivier, un arbre fruitier caractéristique de la région méditerranéenne. Sur le plan botanique, il s'agit d'une drupe, à peau lisse, à mésocarpe charnu riche en matière grasse, renfermant un noyau ligneux, qui contient une graine. Sa forme ovoïde est typique.",
+      "image": "images/olive.png"
+    },
+    {
+      "id": 6,
+      "name": "Melon orange",
+      "prix": 4,
+      "description": "À ne pas confondre avec le « melon d'eau », ou pastèque. Le fruit est généralement volumineux, de forme ovale ou ronde et porte sur sa peau des divisions dessinées. Sa peau est lisse, bosselée, côtelée, brodée ou galeuse, sa couleur varie du vert au jaune en passant par le blanc. La pulpe est très juteuse et parfumée.",
+      "image": "images/melon-orange.png"
     }
   ]
 }
