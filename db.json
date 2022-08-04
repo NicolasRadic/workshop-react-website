@@ -1,6 +1,12 @@
 {
   "clothes": [
-    { "id": 1, "name": "T-shirt", "prix": 10 },
+    {
+      "id": 1,
+      "name": "Tomate",
+      "prix": 5,
+      "description": "La tomate (Solanum lycopersicum L.) est une espèce de plantes herbacées du genre Solanum de la famille des Solanacées, originaire du Nord-Ouest de l'Amérique du Sud, largement cultivée pour son fruit. Le terme désigne aussi ce fruit charnu. La tomate se consomme comme un légume-fruit, crue ou cuite.",
+      "image": "images/tomate.png"
+    },
     { "id": 2, "name": "boot", "prix": 16 },
     { "id": 3, "name": "collar", "prix": 12 },
     { "id": 4, "name": "ring", "prix": 15 },
