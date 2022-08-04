@@ -33,21 +33,24 @@ const Content = () => {
         />
       </form>
       <ul>
-        {categoryRadio.map((continent) => (
-          <li key={continent}>
+        {categoryRadio.map((category) => (
+          <li key={category}>
             <input
               type="radio"
-              id={continent}
+              id={category}
               name="categoryRadio"
-              checked={continent === selectedRadio}
+              checked={category === selectedRadio}
               onChange={(e) => setSelectedRadio(e.target.id)}
             />
-            <label htmlFor={continent}>{continent}</label>
+            <label htmlFor={category}>{category}</label>
           </li>
         ))}
         {selectedRadio && (
-          <button onClick={() => setSelectedRadio("")}>
-            Annuler la recherche
+          <button
+            className="stop-selection"
+            onClick={() => setSelectedRadio("")}
+          >
+            Annuler la sélection
           </button>
         )}
       </ul>
