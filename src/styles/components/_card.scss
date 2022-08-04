@@ -2,11 +2,15 @@
   border: 2px solid palegreen;
   border-radius: 15px;
   padding: 20px;
-}
 
+  a {
+    text-decoration: none;
+    color: black;
+  }
 
-img{
-  height:150px;
-  width:200px;
-  object-fit: cover;
+  img {
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+  }
 }

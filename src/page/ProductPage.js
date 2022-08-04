@@ -6,7 +6,7 @@ const ProductPage = () => {
   const location = useLocation();
   const { product } = location.state;
   return (
-    <div>
+    <div className="productpage">
       <NavBar />
       <img src={product.image} alt="" />
       <h1>{product.name}</h1>
