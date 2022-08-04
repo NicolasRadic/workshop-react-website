@@ -5,7 +5,8 @@ import Card from "./Card";
 const Content = () => {
   const [products, setProducts] = useState([]);
   const [search, setSearch] = useState("");
-  const category = ["fruit", "legume"];
+  const [selectedRadio, setSelectedRadio] = useState("");
+  const categoryRadio = ["fruit", "legume"];
 
   const [cart, setCart] = useState([]);
   const handleClick = (product) => {
@@ -31,11 +32,36 @@ const Content = () => {
           onChange={(e) => setSearch(e.target.value)}
         />
       </form>
+      <ul>
+        {categoryRadio.map((continent) => (
+          <li key={continent}>
+            <input
+              type="radio"
+              id={continent}
+              name="categoryRadio"
+              checked={continent === selectedRadio}
+              onChange={(e) => setSelectedRadio(e.target.id)}
+            />
+            <label htmlFor={continent}>{continent}</label>
+          </li>
+        ))}
+        {selectedRadio && (
+          <button onClick={() => setSelectedRadio("")}>
+            Annuler la recherche
+          </button>
+        )}
+      </ul>
 
       <div>
-        {products.map((product) => (
-          <Card key={product.id} product={product} handleClick={handleClick} />
-        ))}
+        {products
+          .filter((product) => product.category.includes(selectedRadio))
+          .map((product) => (
+            <Card
+              key={product.id}
+              product={product}
+              handleClick={handleClick}
+            />
+          ))}
       </div>
     </div>
   );
