@@ -11,8 +11,14 @@ const ProductPage = () => {
       <div>
         <img src={product.image} alt="" />
         <div className="title">
-          <h1>{product.name}</h1>
-          <span>Prix : {product.prix} €</span>
+          <div className="category">
+            <h1>
+              {product.name} <span id="category">({product.category})</span>
+            </h1>
+            {/* <h2>{product.category}</h2> */}
+          </div>
+
+          <span id="prix">Prix : {product.prix} €</span>
         </div>
 
         <p>{product.description}</p>
