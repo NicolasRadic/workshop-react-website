@@ -9,6 +9,7 @@ function App() {
       <Routes>
         <Route path="*" element={<Home />} />
         <Route path="/paniers" element={<Basket />} />
+        <Route path="/ProductPage" element={<ProductPage />} />
       </Routes>
     </BrowserRouter>
   );
