@@ -1,11 +1,11 @@
-import React from "react";
+import axios from "axios";
+import React, { useEffect } from "react";
 
 const Content = () => {
-  return (
-    <div>
-      <h1>contenu</h1>
-    </div>
-  );
+  useEffect(() => {
+    axios.get(`http://localhost:3001/clothes`).then();
+  }, []);
+  return <div></div>;
 };
 
 export default Content;

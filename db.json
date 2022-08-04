@@ -7,10 +7,19 @@
       "description": "La tomate (Solanum lycopersicum L.) est une espèce de plantes herbacées du genre Solanum de la famille des Solanacées, originaire du Nord-Ouest de l'Amérique du Sud, largement cultivée pour son fruit. Le terme désigne aussi ce fruit charnu. La tomate se consomme comme un légume-fruit, crue ou cuite.",
       "image": "images/tomate.png"
     },
-    { "id": 2, "name": "boot", "prix": 16 },
-    { "id": 3, "name": "collar", "prix": 12 },
-    { "id": 4, "name": "ring", "prix": 15 },
-    { "id": 5, "name": "jeans", "prix": 30 },
-    { "id": 6, "name": "shoes", "prix": 20 }
+    {
+      "id": 2,
+      "name": "Pomme",
+      "prix": 3,
+      "description": "La pomme est un fruit, (en fait un faux fruit ou fruit complexe) des arbres du genre Malus (Malus domestica) et plus précisément un fruit composite car constitué à la fois par l'ovaire, la base des pièces florales et le réceptacle, le tout étant soudé, charnu, de forme quasi sphérique, déprimée au sommet et à la base",
+      "image": "images/pomme.png"
+    },
+    {
+      "id": 3,
+      "name": "poire",
+      "prix": 4,
+      "description": "La poire est un fruit de forme oblongue ou arrondie. Sa peau est généralement jaune-verte, brune ou rouge. La chair de la poire est juteuse, translucide, un peu granuleuse parfois. La poire contient généralement quelques pépins dans son cœur.",
+      "image": "images/poir.png"
+    }
   ]
 }
