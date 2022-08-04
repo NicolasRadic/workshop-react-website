@@ -6,6 +6,12 @@ const Content = () => {
   const [products, setProducts] = useState([]);
   const [search, setSearch] = useState("");
 
+  const [cart, setCart] = useState([]);
+  const handleClick = (product) => {
+    cart.push(product);
+    console.log(cart);
+  };
+
   useEffect(() => {
     axios
       .get(`http://localhost:3001/product?q=${search}`)
@@ -27,7 +33,7 @@ const Content = () => {
 
       <div>
         {products.map((product) => (
-          <Card key={product.id} product={product} />
+          <Card key={product.id} product={product} handleClick={handleClick} />
         ))}
       </div>
     </div>
