@@ -5,6 +5,7 @@ import Card from "./Card";
 const Content = () => {
   const [products, setProducts] = useState([]);
   const [search, setSearch] = useState("");
+  const category = ["fruit", "legume"];
 
   const [cart, setCart] = useState([]);
   const handleClick = (product) => {
