@@ -11,9 +11,12 @@ const Content = () => {
   }, []);
   return (
     <div className="content">
-      {products.map((product) => (
-        <Card key={product.id} product={product} />
-      ))}
+      <h2>Produits</h2>
+      <div>
+        {products.map((product) => (
+          <Card key={product.id} product={product} />
+        ))}
+      </div>
     </div>
   );
 };

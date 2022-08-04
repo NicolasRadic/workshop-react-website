@@ -1,7 +1,8 @@
 .card {
-  border: 2px solid palegreen;
+  border: 0.5px solid rgb(226, 225, 225);
   border-radius: 15px;
   padding: 20px;
+  box-shadow: 1.2px 1.2px 1.2px rgb(226, 225, 225);
 
   a {
     text-decoration: none;
@@ -13,4 +14,9 @@
     width: 200px;
     object-fit: cover;
   }
+}
+
+.card:hover {
+  border: 0.5px solid rgba(152, 251, 152, 0.4);
+  box-shadow: 1.2px 1.2px 1.2px rgba(152, 251, 152, 0.4);
 }
