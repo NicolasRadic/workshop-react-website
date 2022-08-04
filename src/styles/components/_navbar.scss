@@ -1,0 +1,16 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  ul {
+    list-style: none;
+    display: flex;
+
+    a {
+      text-decoration: none;
+      padding-left: 10px;
+      font-size: larger;
+    }
+  }
+}
