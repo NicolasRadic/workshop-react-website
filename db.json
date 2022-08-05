@@ -74,7 +74,7 @@
     },
     {
       "id": 10,
-      "name": "salade",
+      "name": "Salade",
       "prix": 4,
       "description": "La salade est un terme générique désignant en jardinage et horticulture diverses sortes de feuilles, c'est-à-dire de plantes potagères dont les feuilles, consommées crues, entrent dans la composition d'un mets froid dont elles ont pris le nom, la « salade », sous-entendu « salade verte ».",
       "image": "images/salade.png",

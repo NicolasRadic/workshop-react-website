@@ -4,22 +4,23 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
+  margin-bottom: 50px;
 
   h2 {
     font-size: xx-large;
   }
 
-  input {
+  #search-input {
     padding: 5px;
     border-radius: 5px;
     border: 1px solid grey;
   }
 
-  div {
+  .product {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 10px;
+    justify-content: center;
+    gap: 30px;
   }
 
   ul {
@@ -39,6 +40,6 @@
     background: white;
     padding: 5px;
     border-radius: 10px;
-    border: 2px solid gray;
+    border: 1px solid gray;
   }
 }
