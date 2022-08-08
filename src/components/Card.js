@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const Card = ({ product, handleClick }) => {
+const Card = ({ product }) => {
   return (
     <div className="card">
       <Link to="/ProductPage" state={{ product: product }}>
