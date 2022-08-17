@@ -3,18 +3,17 @@ import Card from "./Card";
 import Category from "./Category";
 import data from "../db.json";
 
-const Content = () => {
+const Content = ({ cartItem, setCartItem }) => {
   const [products, setProducts] = useState([]);
   const [search, setSearch] = useState("");
   const [selectedRadio, setSelectedRadio] = useState("");
 
   useEffect(() => {
     setProducts(data.product);
-    // To use with json server
-    // axios
-    //   .get(`http://localhost:3001/product?q=${search}`)
-    //   .then((res) => setProducts(res.data));
   }, [search]);
+
+  const capitalize = (string) =>
+    string && string[0].toUpperCase() + string.slice(1);
 
   return (
     <div className="content">
@@ -25,7 +24,7 @@ const Content = () => {
           type="text"
           placeholder="Entrez le nom d'un produit"
           id="search-input"
-          onChange={(e) => setSearch(e.target.value)}
+          onChange={(e) => setSearch(capitalize(e.target.value))}
         />
       </form>
 
@@ -34,12 +33,17 @@ const Content = () => {
         setSelectedRadio={setSelectedRadio}
       />
 
-      <div className="product">
+      <div className="content__product">
         {products
           .filter((product) => product.name.includes(search))
           .filter((product) => product.category.includes(selectedRadio))
           .map((product) => (
-            <Card key={product.id} product={product} />
+            <Card
+              key={product.id}
+              product={product}
+              cartItem={cartItem}
+              setCartItem={setCartItem}
+            />
           ))}
       </div>
     </div>

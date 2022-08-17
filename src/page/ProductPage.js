@@ -6,18 +6,18 @@ const ProductPage = () => {
   const location = useLocation();
   const { product } = location.state;
   return (
-    <div className="product-page">
+    <div className="productPage">
       <NavBar />
-      <div className="product-content">
-        <img src={product.image} alt="" />
-        <div className="title">
-          <div className="category">
+      <div className="productPage__content">
+        <img className="productPage__coverImage" src={product.image} alt="" />
+        <div className="productPage__title">
+          <div className="productPage__category">
             <h1>
               {product.name} <span id="category">({product.category})</span>
             </h1>
           </div>
 
-          <span>Prix : {product.prix} €</span>
+          <span>Prix : {product.price} €</span>
         </div>
 
         <p>{product.description}</p>

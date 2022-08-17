@@ -1,0 +1,14 @@
+.category {
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  &__li {
+    padding-right: 10px;
+    input {
+      margin-right: 5px;
+    }
+  }
+}

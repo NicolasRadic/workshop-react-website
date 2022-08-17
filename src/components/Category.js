@@ -3,10 +3,10 @@ import React from "react";
 const Category = ({ selectedRadio, setSelectedRadio }) => {
   const categoryRadio = ["fruit", "légume"];
   return (
-    <div>
-      <ul>
+    <div className="category">
+      <ul className="category__list">
         {categoryRadio.map((category) => (
-          <li key={category}>
+          <li className="category__li" key={category}>
             <input
               type="radio"
               id={category}

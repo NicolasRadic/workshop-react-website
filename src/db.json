@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Tomate",
-      "prix": 5,
+      "price": 5,
       "description": "La tomate (Solanum lycopersicum L.) est une espèce de plantes herbacées du genre Solanum de la famille des Solanacées, originaire du Nord-Ouest de l'Amérique du Sud, largement cultivée pour son fruit. Le terme désigne aussi ce fruit charnu. La tomate se consomme comme un légume-fruit, crue ou cuite.",
       "image": "images/tomate.png",
       "category": "fruit"
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "name": "Pomme",
-      "prix": 3,
+      "price": 3,
       "description": "La pomme est un fruit, (en fait un faux fruit ou fruit complexe) des arbres du genre Malus (Malus domestica) et plus précisément un fruit composite car constitué à la fois par l'ovaire, la base des pièces florales et le réceptacle, le tout étant soudé, charnu, de forme quasi sphérique, déprimée au sommet et à la base",
       "image": "images/pomme.png",
       "category": "fruit"
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "name": "Poire",
-      "prix": 4,
+      "price": 4,
       "description": "La poire est un fruit de forme oblongue ou arrondie. Sa peau est généralement jaune-verte, brune ou rouge. La chair de la poire est juteuse, translucide, un peu granuleuse parfois. La poire contient généralement quelques pépins dans son cœur.",
       "image": "images/poire.png",
       "category": "fruit"
@@ -27,7 +27,7 @@
     {
       "id": 4,
       "name": "Pêche",
-      "prix": 4,
+      "price": 4,
       "description": "Les pêches sont des fruits climactériques charnus, juteux et sucrés, avec une chair jaune, blanche, ou rouge (sanguine), une peau veloutée de couleur jaune ou orange plus ou moins lavée de rose-carmin à rose-saumon ou brune chez les sanguines, et un noyau dur, adhérent ou non.",
       "image": "images/peche.png",
       "category": "fruit"
@@ -35,7 +35,7 @@
     {
       "id": 5,
       "name": "Olive",
-      "prix": 4,
+      "price": 4,
       "description": "L'olive est le fruit de l'olivier, un arbre fruitier caractéristique de la région méditerranéenne. Sur le plan botanique, il s'agit d'une drupe, à peau lisse, à mésocarpe charnu riche en matière grasse, renfermant un noyau ligneux, qui contient une graine. Sa forme ovoïde est typique.",
       "image": "images/olive.png",
       "category": "fruit"
@@ -43,7 +43,7 @@
     {
       "id": 6,
       "name": "Melon orange",
-      "prix": 4,
+      "price": 4,
       "description": "À ne pas confondre avec le « melon d'eau », ou pastèque. Le fruit est généralement volumineux, de forme ovale ou ronde et porte sur sa peau des divisions dessinées. Sa peau est lisse, bosselée, côtelée, brodée ou galeuse, sa couleur varie du vert au jaune en passant par le blanc. La pulpe est très juteuse et parfumée.",
       "image": "images/melon-orange.png",
       "category": "fruit"
@@ -51,7 +51,7 @@
     {
       "id": 7,
       "name": "Concombre",
-      "prix": 6,
+      "price": 6,
       "description": "Le concombre est une plante potagère herbacée, rampante, de la même famille que la calebasse africaine, le melon ou la courge. C'est botaniquement un fruit qui est consommé comme un légume. Il est de la même espèce que le cornichon, consommé lui comme condiment.",
       "image": "images/concombre.png",
       "category": "légume"
@@ -59,7 +59,7 @@
     {
       "id": 8,
       "name": "Carrote",
-      "prix": 4,
+      "price": 4,
       "description": "La Carotte est une plante bisannuelle de la famille des Apiacées, largement cultivée pour sa racine pivotante charnue, comestible, de couleur généralement orangée, consommée comme légume. La carotte représente, après la pomme de terre, le principal légume-racine cultivé dans le monde.",
       "image": "images/carrote.png",
       "category": "légume"
@@ -67,7 +67,7 @@
     {
       "id": 9,
       "name": "Banane",
-      "prix": 7,
+      "price": 7,
       "description": "La banane est le fruit ou la baie dérivant de l’inflorescence du bananier. Les bananes sont des fruits très généralement stériles issus de variétés domestiquées. Seuls les fruits des bananiers sauvages et de quelques cultivars domestiques contiennent des graines.",
       "image": "images/banane.png",
       "category": "fruit"
@@ -75,7 +75,7 @@
     {
       "id": 10,
       "name": "Salade",
-      "prix": 4,
+      "price": 4,
       "description": "La salade est un terme générique désignant en jardinage et horticulture diverses sortes de feuilles, c'est-à-dire de plantes potagères dont les feuilles, consommées crues, entrent dans la composition d'un mets froid dont elles ont pris le nom, la « salade », sous-entendu « salade verte ».",
       "image": "images/salade.png",
       "category": "légume"

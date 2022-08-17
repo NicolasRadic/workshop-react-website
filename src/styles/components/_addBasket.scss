@@ -1,0 +1,50 @@
+.addCart {
+  position: absolute;
+  transform: translate(0, -218px);
+  width: 200px;
+  height: 151px;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: white;
+  opacity: 0.9;
+  border: none;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 1px 1px 1px rgb(226, 225, 225), -1px -1px 1px rgb(226, 225, 225);
+
+  &__quantity {
+    width: 30px;
+
+    border: 1px solid grey;
+  }
+
+  &__quantity--more {
+    border-radius: 0 5px 5px 0;
+  }
+
+  &__quantity--less {
+    border-radius: 5px 0 0 5px;
+  }
+
+  &__valueButton {
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid grey;
+  }
+
+  &__value {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__productQuantity {
+    width: 20px;
+    text-align: center;
+  }
+}

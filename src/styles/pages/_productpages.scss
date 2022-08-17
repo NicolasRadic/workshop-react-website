@@ -1,10 +1,10 @@
-.product-page {
-  .product-content {
+.productPage {
+  &__content {
     margin-left: 200px;
     margin-right: 200px;
   }
 
-  img {
+  &__coverImage {
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -13,8 +13,6 @@
   h1 {
     margin-top: 30px;
     margin-bottom: 20px;
-    // margin-left: 50px;
-    // margin-right: 50px;
   }
 
   h2 {
@@ -27,7 +25,7 @@
     font-weight: 400;
     font-size: large;
     margin-bottom: 20px;
-    // margin-left: 50px;
+
     inline-size: 700px;
     overflow-wrap: break-word;
   }
@@ -35,7 +33,6 @@
   span {
     font-weight: 700;
     font-size: xx-large;
-    // margin-right: 50px;
   }
 
   #category {
@@ -43,7 +40,7 @@
     font-size: large;
   }
 
-  .title {
+  &__title {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -52,7 +49,7 @@
     align-content: stretch;
   }
 
-  .category {
+  &__category {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
