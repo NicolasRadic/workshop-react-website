@@ -8,7 +8,7 @@ Les techs : React - Sass
 
 ### Etat de l'app
 
-Un bug a été récemment rapidement corrigé à la "va vite" afin de rendre l'application opérationnel.<br >
+Un bug a été récemment rapidement corrigé à la "va vite" afin de rendre l'application opérationnelle.<br >
 Il faudrait utiliser un autre moyen de passer les objets. Par exemple en utilisant useContext.<br >
 Comme dans cette (petite app de test )[https://github.com/NicolasRadic/use-context-test]
 
