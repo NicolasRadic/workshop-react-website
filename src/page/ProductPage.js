@@ -1,13 +1,14 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import NavBar from "../components/NavBar";
+import NavBarCopy from "../components/NavBarCopy";
 
 const ProductPage = () => {
   const location = useLocation();
   const { product } = location.state;
+
   return (
     <div className="productPage">
-      <NavBar />
+      <NavBarCopy />
       <div className="productPage__content">
         <img className="productPage__coverImage" src={product.image} alt="" />
         <div className="productPage__title">
