@@ -30,3 +30,4 @@ The tech used are React and Sass
 
 Recently just quickly corrected a bug not in the best way but to make it working.
 Would have to use different way of processing object ( useContext should be a good way ).
+like in this (little app)[https://github.com/NicolasRadic/use-context-test]
