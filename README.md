@@ -15,8 +15,6 @@ Comme dans cette (petite app de test )[https://github.com/NicolasRadic/use-conte
 <br>
 <br>
 <br>
-<br>
-<br>
 
 # Healthy Life - Workshop
 
