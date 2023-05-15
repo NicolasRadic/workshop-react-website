@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
+import CartContext from "./context/CartContext";
 
-const ShoppingCart = ({ cartItem, setCartItem }) => {
+const ShoppingCart = () => {
+  const { cartItem, setCartItem } = useContext(CartContext);
   const deleteItem = (itemToRemove) => {
     setCartItem(
       cartItem.filter((item) => item.product !== itemToRemove.product)

@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import AddBasket from "./AddBasket";
+import CartContext from "./context/CartContext";
 
-const Card = ({ product, cartItem, setCartItem }) => {
+const Card = ({ product }) => {
+  const { cartItem, setCartItem } = useContext(CartContext);
   const [displayAddBasket, setDisplayAddBasket] = useState(false);
   const [articleQuantity, setArticleQuantity] = useState(0);
 

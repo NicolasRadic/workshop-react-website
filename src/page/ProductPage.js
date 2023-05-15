@@ -1,6 +1,6 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import NavBarCopy from "../components/NavBarCopy";
+import NavBar from "../components/NavBar";
 
 const ProductPage = () => {
   const location = useLocation();
@@ -8,7 +8,7 @@ const ProductPage = () => {
 
   return (
     <div className="productPage">
-      <NavBarCopy />
+      <NavBar />
       <div className="productPage__content">
         <img className="productPage__coverImage" src={product.image} alt="" />
         <div className="productPage__title">
@@ -21,7 +21,7 @@ const ProductPage = () => {
           <span>Prix : {product.price} €</span>
         </div>
 
-        <p>{product.description}</p>
+        <p className="productPage__description">{product.description}</p>
       </div>
     </div>
   );
