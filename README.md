@@ -15,7 +15,7 @@ Comme dans cette (petite app de test )[https://github.com/NicolasRadic/use-conte
 ### mise a jour
 
 Le système de props du cart a été récemment remplacer par la méthode useContext<br>
-L'application ayant été modifier a divers moment n'est pas doté du code le "plus propre".
+L'application, ayant été modifier a divers moment, n'est pas doté du code le "plus propre".
 
 <br>
 <br>
